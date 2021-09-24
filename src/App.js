@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { NiceFlagProvider } from "./store/NiceFlagProvider";
-import Index from "./pages/Index";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { NiceFlagProvider } from './store/NiceFlagProvider';
+import Index from './pages/Index';
 
 const App = () => {
   return (

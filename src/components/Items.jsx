@@ -1,7 +1,7 @@
-import { useContext } from "react";
-import { NiceFlagContext } from "../store/NiceFlagProvider";
-import NiceImage from "../assets/img/items/nice.svg";
-import NiceDisableImage from "../assets/img/items/nice_disable.svg";
+import { useContext } from 'react';
+import { NiceFlagContext } from '../store/NiceFlagProvider';
+import NiceImage from '../assets/img/items/nice.svg';
+import NiceDisableImage from '../assets/img/items/nice_disable.svg';
 
 export const Nice = () => {
   const { isNice, setIsNice } = useContext(NiceFlagContext);

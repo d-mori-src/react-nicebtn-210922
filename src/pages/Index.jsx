@@ -1,4 +1,4 @@
-import { Nice } from "../components/Items";
+import { Nice } from '../components/Items';
 
 const Index = () => {
   return (
